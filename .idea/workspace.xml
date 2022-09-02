@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : add comments on Word">
+    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : add image files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662117970520</updated>
-      <workItem from="1662117971777" duration="4608000" />
+      <workItem from="1662117971777" duration="5635000" />
     </task>
     <task id="LOCAL-00001" summary="docs : add comments on WordCRUD">
       <created>1662121104475</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662121298487</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docs : add image files">
+      <created>1662123561310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662123561310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +102,7 @@
     <MESSAGE value="docs : add comments on WordCRUD" />
     <MESSAGE value="docs : add comments on WordManager" />
     <MESSAGE value="docs : add comments on Word" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs : add comments on Word" />
+    <MESSAGE value="docs : add image files" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : add image files" />
   </component>
 </project>
