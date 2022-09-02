@@ -3,13 +3,16 @@ package org.tmcom.word;
 import java.util.Scanner;
 
 public class WordManager {
+	// 멤버 변수
 	Scanner s = new Scanner(System.in);
 	WordCRUD wordCRUD;
 
+	// 생성자(Constructor)
 	WordManager(){
 		wordCRUD = new WordCRUD(s);
 	}
 
+	// 멤버 메소드
 	public void start() {
 		System.out.println("*** 영단어 마스터 ***");
 		while(true) {

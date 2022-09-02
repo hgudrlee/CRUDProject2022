@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/ICRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordCRUD.java" afterDir="false" />
+    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : add comments on WordCRUD">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +50,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662117970520</updated>
-      <workItem from="1662117971777" duration="2900000" />
+      <workItem from="1662117971777" duration="3189000" />
     </task>
+    <task id="LOCAL-00001" summary="docs : add comments on WordCRUD">
+      <created>1662121104475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662121104475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs : add comments on WordCRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : add comments on WordCRUD" />
   </component>
 </project>
