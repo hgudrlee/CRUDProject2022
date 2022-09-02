@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : add comments on WordManager">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Word.java" afterDir="false" />
+    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : add comments on Word">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662117970520</updated>
-      <workItem from="1662117971777" duration="3296000" />
+      <workItem from="1662117971777" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="docs : add comments on WordCRUD">
       <created>1662121104475</created>
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662121198801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="docs : add comments on Word">
+      <created>1662121298487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662121298487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +93,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docs : add comments on WordCRUD" />
     <MESSAGE value="docs : add comments on WordManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs : add comments on WordManager" />
+    <MESSAGE value="docs : add comments on Word" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : add comments on Word" />
   </component>
 </project>
