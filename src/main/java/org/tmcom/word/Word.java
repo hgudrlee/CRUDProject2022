@@ -1,11 +1,13 @@
 package org.tmcom.word;
 
 public class Word {
+	// 멤버 변수
 	private int id;
 	private int level;
 	private String word;
 	private String meaning;
-	
+
+	// 생성자(Constructor)
 	Word(){}
 	Word(int id, int level, String word, String meaning) {
 		this.id = id;
@@ -13,7 +15,8 @@ public class Word {
 		this.word = word;
 		this.meaning = meaning;
 	}
-	
+
+	// 멤버 메소드(getter and setter)
 	/**
 	 * @return the id
 	 */
