@@ -1,20 +1,21 @@
-package com.mycom.word;
+package org.tmcom.word;
 
 import java.util.Scanner;
 
 public class WordManager {
 	Scanner s = new Scanner(System.in);
 	WordCRUD wordCRUD;
-	
+
 	WordManager(){
 		wordCRUD = new WordCRUD(s);
 	}
-	
+
 	public void start() {
+		System.out.println("*** ì˜ë‹¨ì–´ ë§ˆìŠ¤í„° ***");
 		while(true) {
 			int menu = selectMenu();
 			if (menu == 0) {
-				System.out.println("Á¾·á.");
+				System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ! ë‹¤ìŒì— ë§Œë‚˜ìš”~");
 				break;
 			}
 			else if (menu == 1) {
@@ -24,7 +25,7 @@ public class WordManager {
 				wordCRUD.levelAll();
 			}
 			else if (menu == 3) {
-				System.out.print("°Ë»öÇÒ ´Ü¾îÀÇ ¹øÈ£ : ");
+				System.out.print("ê²€ìƒ‰í•  ë‹¨ì–´ì˜ ë²ˆí˜¸ : ");
 				int id = s.nextInt();
 				s.nextLine();
 				wordCRUD.selectOne(id);
@@ -34,14 +35,14 @@ public class WordManager {
 			}
 			else if (menu == 5) {
 				wordCRUD.listAll();
-				System.out.print("¼öÁ¤ÇÒ ´Ü¾îÀÇ ¹øÈ£ : ");
+				System.out.print("ìˆ˜ì •í•  ë‹¨ì–´ì˜ ë²ˆí˜¸ : ");
 				int id = s.nextInt();
 				s.nextLine();
 				wordCRUD.update(wordCRUD.list.get(id-1));
 			}
 			else if (menu == 6) {
 				wordCRUD.listAll();
-				System.out.print("»èÁ¦ÇÒ ´Ü¾îÀÇ ¹øÈ£ : ");
+				System.out.print("ì‚­ì œí•  ë‹¨ì–´ì˜ ë²ˆí˜¸ : ");
 				int id = s.nextInt();
 				s.nextLine();
 				wordCRUD.delete(wordCRUD.list.get(id-1));
@@ -50,18 +51,17 @@ public class WordManager {
 	}
 	
 	public int selectMenu() {
-		System.out.print("*** ¿µ´Ü¾î ¸¶½ºÅÍ ***\n"
+		System.out.print("\n********************\n"
+				+ "1. ëª¨ë“  ë‹¨ì–´ ë³´ê¸°\n"
+				+ "2. ìˆ˜ì¤€ë³„ ë‹¨ì–´ ë³´ê¸°\n"
+				+ "3. ë‹¨ì–´ ê²€ìƒ‰\n"
+				+ "4. ë‹¨ì–´ ì¶”ê°€\n"
+				+ "5. ë‹¨ì–´ ìˆ˜ì •\n"
+				+ "6. ë‹¨ì–´ ì‚­ì œ\n"
+				+ "7. íŒŒì¼ ì €ì¥\n"
+				+ "0. ë‚˜ê°€ê¸°\n"
 				+ "********************\n"
-				+ "1. ¸ğµç ´Ü¾î º¸±â\n"
-				+ "2. ¼öÁØº° ´Ü¾î º¸±â\n"
-				+ "3. ´Ü¾î °Ë»ö\n"
-				+ "4. ´Ü¾î Ãß°¡\n"
-				+ "5. ´Ü¾î ¼öÁ¤\n"
-				+ "6. ´Ü¾î »èÁ¦\n"
-				+ "7. ÆÄÀÏ ÀúÀå\n"
-				+ "0. ³ª°¡±â\n"
-				+ "********************\n"
-				+ "=> ¿øÇÏ´Â ¸Ş´º´Â? ");
+				+ "=> ì›í•˜ëŠ” ë©”ë‰´ëŠ”? ");
 		
 		return s.nextInt();
 	}

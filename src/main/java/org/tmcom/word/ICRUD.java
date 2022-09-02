@@ -1,4 +1,4 @@
-package com.mycom.word;
+package org.tmcom.word;
 
 public interface ICRUD {
 	public Object add();
