@@ -14,6 +14,7 @@ public class WordManager {
 
 	// 멤버 메소드
 	public void start() {
+		wordCRUD.loadFile();
 		System.out.println("*** 영단어 마스터 ***");
 		while(true) {
 			int menu = selectMenu();
@@ -55,6 +56,10 @@ public class WordManager {
 				int id = s.nextInt();
 				s.nextLine();
 				wordCRUD.delete(wordCRUD.list.get(id - 1));*/
+			}
+			else if (menu == 7) {
+				//save data
+				wordCRUD.saveFile();
 			}
 		}
 	}

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : create updateItem">
+    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : create deleteItem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordManager.java" afterDir="false" />
     </list>
@@ -56,7 +57,7 @@
       <workItem from="1662358533168" duration="675000" />
       <workItem from="1662382365311" duration="675000" />
       <workItem from="1662626120276" duration="277000" />
-      <workItem from="1662886944931" duration="2047000" />
+      <workItem from="1662886944931" duration="5550000" />
     </task>
     <task id="LOCAL-00001" summary="docs : add comments on WordCRUD">
       <created>1662121104475</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662888829677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="docs : create deleteItem">
+      <created>1662889071541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662889071541</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="docs : add image files" />
     <MESSAGE value="docs : revise gitignore" />
     <MESSAGE value="docs : create updateItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs : create updateItem" />
+    <MESSAGE value="docs : create deleteItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : create deleteItem" />
   </component>
 </project>
