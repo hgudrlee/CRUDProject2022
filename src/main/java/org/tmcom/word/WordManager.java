@@ -48,7 +48,7 @@ public class WordManager {
 			}
 			else if (menu == 6) {
 				//delete
-				//wordCRUD.deleteItem();
+				wordCRUD.deleteItem();
 				/*
 				wordCRUD.listAll();
 				System.out.print("삭제할 단어의 번호 : ");
