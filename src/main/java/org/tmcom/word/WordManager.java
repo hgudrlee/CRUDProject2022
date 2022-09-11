@@ -34,21 +34,27 @@ public class WordManager {
 				wordCRUD.selectOne(id);
 			}
 			else if (menu == 4) {
-				wordCRUD.addWord();
+				wordCRUD.addItem();
 			}
 			else if (menu == 5) {
+				//update
+				wordCRUD.updateItem();
+				/*
 				wordCRUD.listAll();
 				System.out.print("수정할 단어의 번호 : ");
 				int id = s.nextInt();
 				s.nextLine();
-				wordCRUD.update(wordCRUD.list.get(id-1));
+				wordCRUD.update(wordCRUD.list.get(id-1));*/
 			}
 			else if (menu == 6) {
+				//delete
+				//wordCRUD.deleteItem();
+				/*
 				wordCRUD.listAll();
 				System.out.print("삭제할 단어의 번호 : ");
 				int id = s.nextInt();
 				s.nextLine();
-				wordCRUD.delete(wordCRUD.list.get(id-1));
+				wordCRUD.delete(wordCRUD.list.get(id - 1));*/
 			}
 		}
 	}

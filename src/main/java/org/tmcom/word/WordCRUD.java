@@ -13,11 +13,11 @@ public class WordCRUD implements ICRUD {
 	Scanner s; // Scanner는 사용자로부터 입력을 받기 위한 클래스이다.
 
 	// 생성자(Constructor) : 인스턴스를 생성해주는 역할, 객체를 초기화한다.
-	WordCRUD(Scanner s){
+	WordCRUD(Scanner s) {
 		list = new ArrayList<>();
 		this.s = s;
 	}
-	
+
 	// 멤버 메소드
 	@Override
 	public Object add() {
@@ -29,9 +29,9 @@ public class WordCRUD implements ICRUD {
 
 		return new Word(list.size() + 1, level, word, meaning);
 	}
-	
-	public void addWord() {
-		Word one = (Word)add();
+
+	public void addItem() {
+		Word one = (Word) add();
 		list.add(one);
 		System.out.println("\n새 단어가 단어장에 추가되었습니다. ");
 	}
@@ -56,7 +56,7 @@ public class WordCRUD implements ICRUD {
 		int del = s.nextInt();
 		s.nextLine();
 		if (del == 1) {
-			list.remove(((Word) obj).getId()-1);
+			list.remove(((Word) obj).getId() - 1);
 			System.out.println("\n삭제 완료.");
 			return 1;
 		}
@@ -67,15 +67,15 @@ public class WordCRUD implements ICRUD {
 	public void selectOne(int id) {
 		System.out.println("\n-------------------------");
 		System.out.print(id + " ");
-		System.out.println(list.get(id-1).toString());
+		System.out.println(list.get(id - 1).toString());
 		System.out.println("-------------------------\n");
-		
+
 	}
-	
+
 	public void listAll() {
 		System.out.println("\n-------------------------");
 		for (int i = 0; i < list.size(); i++) {
-			System.out.print((i+1) + " ");
+			System.out.print((i + 1) + " ");
 			System.out.println(list.get(i).toString());
 		}
 		System.out.println("-------------------------\n");
@@ -85,15 +85,46 @@ public class WordCRUD implements ICRUD {
 		System.out.print("\n=> 난이도 (1,2,3) : ");
 		int level = s.nextInt();
 		s.nextLine();
-		
+
 		System.out.println("\n-------------------------");
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).getLevel() == level) {
-				System.out.print((i+1) + " ");
+				System.out.print((i + 1) + " ");
 				System.out.println(list.get(i).toString());
 			}
 		}
 		System.out.println("-------------------------\n");
 	}
-	
+
+	public ArrayList<Integer> listAll(String keyword) {
+
+		ArrayList<Integer> idlist = new ArrayList<>();
+		int j = 0;
+		System.out.println("\n-------------------------");
+		for (int i = 0; i < list.size(); i++) {
+			String word = list.get(i).getWord();
+			if (!word.contains(keyword)) continue;
+			System.out.print((j + 1) + " ");
+			System.out.println(list.get(i).toString());
+			idlist.add(i);
+			j++;
+		}
+		System.out.println("-------------------------\n");
+		return idlist;
+	}
+
+	public void updateItem() {
+		System.out.print("=> 수정할 단어 검색 : ");
+		String keyword = s.next();
+		ArrayList<Integer> idlist = this.listAll(keyword);
+		System.out.print("=> 수정할 번호 선택 : ");
+		int id = s.nextInt();
+		s.nextLine();
+
+		System.out.print("=> 뜻 입력 : ");
+		String meaning = s.nextLine();
+		Word word = list.get(idlist.get(id - 1));
+		word.setMeaning(meaning);
+		System.out.println("단어가 수정되었습니다. ");
+	}
 }
