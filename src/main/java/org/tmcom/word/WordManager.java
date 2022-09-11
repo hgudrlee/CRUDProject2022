@@ -26,13 +26,15 @@ public class WordManager {
 				wordCRUD.listAll();
 			}
 			else if (menu == 2) {
-				wordCRUD.levelAll();
+				wordCRUD.searchLevel();
 			}
 			else if (menu == 3) {
+				wordCRUD.searchWord();
+				/*
 				System.out.print("검색할 단어의 번호 : ");
 				int id = s.nextInt();
 				s.nextLine();
-				wordCRUD.selectOne(id);
+				wordCRUD.selectOne(id);*/
 			}
 			else if (menu == 4) {
 				wordCRUD.addItem();
