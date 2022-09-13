@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : create FileClass">
+    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : create searchMethod">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tmcom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,9 @@
       <workItem from="1662358533168" duration="675000" />
       <workItem from="1662382365311" duration="675000" />
       <workItem from="1662626120276" duration="277000" />
-      <workItem from="1662886944931" duration="6935000" />
+      <workItem from="1662886944931" duration="7014000" />
+      <workItem from="1663055971994" duration="526000" />
+      <workItem from="1663069505684" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="docs : add comments on WordCRUD">
       <created>1662121104475</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662896206991</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="docs : create searchMethod">
+      <created>1662897552702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662897552702</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="docs : create updateItem" />
     <MESSAGE value="docs : create deleteItem" />
     <MESSAGE value="docs : create FileClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs : create FileClass" />
+    <MESSAGE value="docs : create searchMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : create searchMethod" />
   </component>
 </project>
