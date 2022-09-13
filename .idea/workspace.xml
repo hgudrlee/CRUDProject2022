@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : create searchMethod">
+    <list default="true" id="4f99ebb6-3a06-4184-b6ee-12e7d9302bc0" name="Changes" comment="docs : add image files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <workItem from="1662626120276" duration="277000" />
       <workItem from="1662886944931" duration="7014000" />
       <workItem from="1663055971994" duration="526000" />
-      <workItem from="1663069505684" duration="1384000" />
+      <workItem from="1663069505684" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="docs : add comments on WordCRUD">
       <created>1662121104475</created>
@@ -128,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662897552702</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="docs : add image files">
+      <created>1663071233632</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663071233632</updated>
+    </task>
+    <task id="LOCAL-00012" summary="docs : add image files">
+      <created>1663071412379</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663071412379</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +153,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -149,12 +175,12 @@
     <MESSAGE value="docs : add comments on WordCRUD" />
     <MESSAGE value="docs : add comments on WordManager" />
     <MESSAGE value="docs : add comments on Word" />
-    <MESSAGE value="docs : add image files" />
     <MESSAGE value="docs : revise gitignore" />
     <MESSAGE value="docs : create updateItem" />
     <MESSAGE value="docs : create deleteItem" />
     <MESSAGE value="docs : create FileClass" />
     <MESSAGE value="docs : create searchMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs : create searchMethod" />
+    <MESSAGE value="docs : add image files" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : add image files" />
   </component>
 </project>
